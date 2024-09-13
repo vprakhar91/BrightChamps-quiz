@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.start-preadded-quiz-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.quiz-taking-container {
+  max-height: 60vh;
+  overflow-y: auto; 
+}
+
+.timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 15px;
+}
+
+.quiz-taking {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question-block {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.option-label {
+  display: block;
+  margin: 5px 0;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}

@@ -1,0 +1,28 @@
+.quiz-creation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .question-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .question-input, .option-input, .correct-answer-input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .add-question-btn, .save-quiz-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
